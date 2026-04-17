@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/women/47.jpg",
+    "email": "emma.wilson@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during freshman orientation. My go-to person for late-night study sessions and spontaneous coffee runs.",
+    "goal": 14,
+    "next_due_date": "2025-04-25"
+  },
+  {
+    "id": 2,
+    "name": "Carlos Wilson",
+    "picture": "https://randomuser.me/api/portraits/men/12.jpg",
+    "email": "carlos.wilson@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "Senior engineer at my first job who took me under his wing. Meet for coffee every couple of weeks.",
+    "goal": 14,
+    "next_due_date": "2025-05-02"
+  },
+  {
+    "id": 3,
+    "name": "Lea Henderson",
+    "picture": "https://randomuser.me/api/portraits/women/32.jpg",
+    "email": "lea.henderson@yahoo.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["childhood", "close friend"],
+    "bio": "Grew up three houses down. We have been through everything together since first grade.",
+    "goal": 14,
+    "next_due_date": "2025-04-28"
+  },
+  {
+    "id": 4,
+    "name": "Jordan Burke",
+    "picture": "https://randomuser.me/api/portraits/men/53.jpg",
+    "email": "jordan.burke@proton.me",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["travel", "adventure"],
+    "bio": "Met backpacking through Portugal. We still swap recommendations and plan future trips together.",
+    "goal": 21,
+    "next_due_date": "2025-04-20"
+  },
+  {
+    "id": 5,
+    "name": "Yuki Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/25.jpg",
+    "email": "yuki.nakamura@icloud.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["book club", "neighbour"],
+    "bio": "We bonded over Haruki Murakami at our building monthly book club. Best reading recommendations ever.",
+    "goal": 10,
+    "next_due_date": "2025-05-05"
+  },
+  {
+    "id": 6,
+    "name": "Marcus Rivera",
+    "picture": "https://randomuser.me/api/portraits/men/15.jpg",
+    "email": "marcus.r@designstudio.co",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["work", "creative"],
+    "bio": "Freelance designer I have collaborated with on several projects. Always pushes ideas further.",
+    "goal": 10,
+    "next_due_date": "2025-04-30"
+  },
+  {
+    "id": 7,
+    "name": "Sophie Mensah",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "sophie.mensah@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["university", "study partner"],
+    "bio": "My thesis partner from grad school. We survived countless 3am submission crunches together.",
+    "goal": 30,
+    "next_due_date": "2025-04-18"
+  },
+  {
+    "id": 8,
+    "name": "Dev Patel",
+    "picture": "https://randomuser.me/api/portraits/men/8.jpg",
+    "email": "dev.patel@techstartup.io",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["startup", "peer"],
+    "bio": "Fellow founder I met at a startup weekend. We exchange ideas and celebrate small wins.",
+    "goal": 14,
+    "next_due_date": "2025-05-03"
+  }
+]
