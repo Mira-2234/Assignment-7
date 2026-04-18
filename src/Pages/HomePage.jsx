@@ -12,12 +12,11 @@ export default function HomePage({ friends, loading, setPage, setCurrentFriend }
       <div className=" text-white py-20 px-6 text-center">
         <div className="max-w-2xl mx-auto">
           
-          <h1 className="text-black text-2xl md:text-5xl font-extrabold leading-tight mb-4">
-            Friends to keep close in your life
-          </h1>
-          <p className="text-black text-xl font-medium md:text-lg mb-8 leading-relaxed">
-            KeenKeeper helps you track and nurture the relationships that matter most.
-            Never let the people you care about drift away.
+          <h1 className="text-black text-2xl md:text-4xl font-extrabold mb-4">
+            Friends to keep close in your life</h1>
+          <p className="text-black text-[13px] md:text-sm mb-8 leading-relaxed">
+          Your personal shelf of meaningful connections. Browse, tend, and nurture the
+       <br /> relationships that matter most.
           </p>
           <button className="btn text-white bg-[#244D3F] border-none font-bold px-7 py-3 rounded-sm">
             + Add a Friend

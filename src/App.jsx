@@ -1,13 +1,13 @@
 import { useState, useEffect, useCallback } from "react";
-import Navbar        from "./components/Navbar";
-import Footer        from "./components/Footer";
-import Toast         from "./components/Toast";
-import HomePage      from "./pages/HomePage";
-import DetailPage    from "./pages/DetailPage";
-import TimelinePage  from "./pages/TimelinePage";
-import StatsPage     from "./pages/StatsPage";
-import NotFoundPage  from "./pages/NotFoundPage";
-import friendsData   from "./data/friends.json";
+import Navbar       from "./components/Navbar";
+import Footer       from "./components/Footer";
+import Toast        from "./components/Toast";
+import HomePage     from "./pages/HomePage";
+import DetailPage   from "./pages/DetailPage";
+import TimelinePage from "./pages/TimelinePage";
+import StatsPage    from "./pages/StatsPage";
+import NotFoundPage from "./pages/NotFoundPage";
+import friendsData  from "./data/friends.json";
 
 export default function App() {
   const [page, setPage]                   = useState("home");
@@ -18,7 +18,16 @@ export default function App() {
   const [loading, setLoading]             = useState(true);
 
   useEffect(() => {
+    // Loading timer
     const t = setTimeout(() => setLoading(false), 1200);
+
+    // URL check — unknown path হলে 404 দেখাবে
+    const path = window.location.pathname;
+    const validPaths = ["/", "/home", "/timeline", "/stats", "/detail"];
+    if (!validPaths.includes(path)) {
+      setPage("notfound");
+    }
+
     return () => clearTimeout(t);
   }, []);
 
@@ -33,22 +42,39 @@ export default function App() {
   }, []);
 
   const renderPage = () => {
-    switch (page) {
-      case "home":
-        return <HomePage friends={friends} loading={loading}
-                  setPage={setPage} setCurrentFriend={setCurrentFriend} />;
-      case "detail":
-        return currentFriend
-          ? <DetailPage friend={currentFriend} setPage={setPage}
-                addTimelineEntry={addTimelineEntry} showToast={showToast} />
-          : <NotFoundPage setPage={setPage} />;
-      case "timeline":
-        return <TimelinePage timeline={timeline} />;
-      case "stats":
-        return <StatsPage timeline={timeline} friends={friends} />;
-      default:
-        return <NotFoundPage setPage={setPage} />;
+    if (page === "home") {
+      return (
+        <HomePage
+          friends={friends}
+          loading={loading}
+          setPage={setPage}
+          setCurrentFriend={setCurrentFriend}
+        />
+      );
     }
+    if (page === "detail") {
+      return currentFriend ? (
+        <DetailPage
+          friend={currentFriend}
+          setPage={setPage}
+          addTimelineEntry={addTimelineEntry}
+          showToast={showToast}
+        />
+      ) : (
+        <NotFoundPage setPage={setPage} />
+      );
+    }
+    if (page === "timeline") {
+      return <TimelinePage timeline={timeline} />;
+    }
+    if (page === "stats") {
+      return <StatsPage timeline={timeline} friends={friends} />;
+    }
+    if (page === "notfound") {
+      return <NotFoundPage setPage={setPage} />;
+    }
+    // যেকোনো unknown page
+    return <NotFoundPage setPage={setPage} />;
   };
 
   return (

@@ -11,7 +11,7 @@ export default function Navbar({ page, setPage }) {
 
         {/* Logo */}
         <button onClick={() => setPage("home")} className="text-xl font-bold">
-          <span className="text-gray-900">Keen</span>
+          <span className="text-gray-900 font-black">Keen</span>
           <span className="text-[#244D3F]">Keeper</span>
         </button>
 
