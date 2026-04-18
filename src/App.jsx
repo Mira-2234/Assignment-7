@@ -21,7 +21,7 @@ export default function App() {
     // Loading timer
     const t = setTimeout(() => setLoading(false), 1200);
 
-    // URL check — unknown path হলে 404 দেখাবে
+ 
     const path = window.location.pathname;
     const validPaths = ["/", "/home", "/timeline", "/stats", "/detail"];
     if (!validPaths.includes(path)) {
@@ -73,7 +73,7 @@ export default function App() {
     if (page === "notfound") {
       return <NotFoundPage setPage={setPage} />;
     }
-    // যেকোনো unknown page
+
     return <NotFoundPage setPage={setPage} />;
   };
 
