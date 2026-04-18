@@ -49,9 +49,9 @@ export default function Footer() {
         <div className="border-t border-green-700 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-green-300 gap-3">
           <p className="text-white">© 2026 KeenKeeper. All rights reserved.</p>
           <div className="flex gap-6">
-            <p className="cursor-pointer hover:text-white transition">Privacy Policy</p>
-            <p className="cursor-pointer hover:text-white transition">Terms of Service</p>
-            <p className="cursor-pointer hover:text-white transition">Cookies</p>
+            <p className=" text-white transition">Privacy Policy</p>
+            <p className=" text-white transition">Terms of Service</p>
+            <p className=" text-white transition">Cookies</p>
           </div>
         </div>
 
