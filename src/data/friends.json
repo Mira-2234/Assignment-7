@@ -6,7 +6,7 @@
     "email": "emma.wilson@gmail.com",
     "days_since_contact": 18,
     "status": "overdue",
-    "tags": ["college", "close friend"],
+    "tags": ["college"],
     "bio": "Met during freshman orientation. My go-to person for late-night study sessions and spontaneous coffee runs.",
     "goal": 14,
     "next_due_date": "2026-04-25"
@@ -30,7 +30,7 @@
     "email": "lea.henderson@yahoo.com",
     "days_since_contact": 11,
     "status": "almost due",
-    "tags": ["childhood", "close friend"],
+    "tags": ["childhood"],
     "bio": "Grew up three houses down. We have been through everything together since first grade.",
     "goal": 14,
     "next_due_date": "2026-04-28"
@@ -42,7 +42,7 @@
     "email": "jordan.burke@proton.me",
     "days_since_contact": 30,
     "status": "overdue",
-    "tags": ["travel", "adventure"],
+    "tags": ["travel"],
     "bio": "Met backpacking through Portugal. We still swap recommendations and plan future trips together.",
     "goal": 21,
     "next_due_date": "2026-04-20"
@@ -54,7 +54,7 @@
     "email": "yuki.nakamura@icloud.com",
     "days_since_contact": 3,
     "status": "on-track",
-    "tags": ["book club", "neighbour"],
+    "tags": ["book club"],
     "bio": "We bonded over Haruki Murakami at our building monthly book club. Best reading recommendations ever.",
     "goal": 10,
     "next_due_date": "2026-05-05"
@@ -78,7 +78,7 @@
     "email": "sophie.mensah@gmail.com",
     "days_since_contact": 45,
     "status": "overdue",
-    "tags": ["university", "study partner"],
+    "tags": ["university"],
     "bio": "My thesis partner from grad school. We survived countless 3am submission crunches together.",
     "goal": 30,
     "next_due_date": "2026-04-18"
@@ -126,7 +126,7 @@
     "email": "priya.sharma@design.co",
     "days_since_contact": 13,
     "status": "almost due",
-    "tags": ["college", "creative"],
+    "tags": [ "creative"],
     "bio": "We met in an art elective and bonded over terrible coffee and good music. Still share playlists weekly.",
     "goal": 14,
     "next_due_date": "2026-04-26"
@@ -138,7 +138,7 @@
     "email": "noah.thompson@gmail.com",
     "days_since_contact": 60,
     "status": "overdue",
-    "tags": ["gym", "old friend"],
+    "tags": ["gym"],
     "bio": "Gym buddy turned close friend. We used to train together every morning. Need to reconnect soon.",
     "goal": 21,
     "next_due_date": "2026-04-15"

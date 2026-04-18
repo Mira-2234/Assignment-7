@@ -27,11 +27,11 @@ export default function FriendCard({ friend, onClick }) {
       </p>
 
       {/* Tags */}
-      <div className="flex flex-col gap-2 items-center mb-3">
+      <div className="flex gap-1 items-center mb-3">
         {friend.tags.map((tag) => (
           <span
             key={tag}
-            className="bg-green-100 text-green-600 text-xs font-bold uppercase tracking-wider px-5 py-1 rounded-full"
+            className="bg-[#CBFADB] text-[#244D3F] font-normal px-2 py-1 rounded-full"
           >
             {tag}
           </span>
