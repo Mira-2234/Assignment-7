@@ -12,7 +12,7 @@ export default function Footer() {
           </div>
 
           {/* Subtitle */}
-          <p className="text-sm text-green-200 leading-relaxed max-w-md mb-8">
+          <p className="text-sm text-white max-w-md mb-8">
             Your personal shelf of meaningful connections. Browse, tend, and
             nurture the relationships that matter most.
           </p>

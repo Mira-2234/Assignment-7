@@ -32,7 +32,7 @@ export default function HomePage({ friends, loading, setPage, setCurrentFriend }
               { label: "Overdue",       value: overdue,          color: "text-[#244D3F]" },
             ].map(({ label, value, color }) => (
               <div key={label} className="bg-white/10 border border-white/20 shadow-xl rounded-2xl p-5 text-center">
-                <div className={`text-4xl font-extrabold ${color}`}>
+                <div className={`text-2xl font-extrabold ${color}`}>
                   {loading ? "—" : value}
                 </div>
                 <div className="text-sm text-[#244D3F] mt-1 font-medium">{label}</div>
